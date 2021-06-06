@@ -7,6 +7,9 @@ html
 {
     background: #262626;
     margin:50px 0 0 0;
+    padding: 0;
+    width: 100%;
+    background: url(./images/bg.png) no-repeat center center/cover;
 }
 
 body
@@ -22,12 +25,6 @@ body
     border-radius: 5px; 
 }
 
-#Home
-{
-    padding: 0;
-    width: 100%;
-    background: url(./images/bg.png) no-repeat center center/cover;
-}
 
 .card-header
 {
