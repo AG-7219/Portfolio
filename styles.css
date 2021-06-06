@@ -1,0 +1,152 @@
+html
+{
+    background: #262626;
+}
+
+#Home
+{
+    background: #262626;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#card1
+{
+    margin:50px 0 0 0;
+    padding: 0;
+    width: 100%;
+    background: linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%) no-repeat center center/cover;
+}
+
+.card-header
+{
+    font-family: Gotham Narrow SSm A,Gotham Narrow SSm B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+    text-transform: uppercase;
+    font-size: clamp(1.2rem,calc(1rem + 3.5vw),4rem);
+    text-shadow: 0 3px 3px rgb(0 0 0 / 50%);
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+
+.card-title
+{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Skills
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #010615;
+    min-height: 100vh;
+}
+
+.container
+{
+    width:100vw;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.box
+{
+    position: relative;
+    width: 300px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #060c21;
+    margin: 40px;
+}
+.box:before
+{
+    content:"";
+    position:absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: cyank;
+    z-index: -1;
+}
+
+.aux
+{
+    z-index: 0;
+}
+
+.box:after
+{
+    content:"";
+    position:absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: white;
+    z-index: -2;
+    filter: blur(40px);
+}
+
+.box .glass
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+}
+
+.box .content
+{
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+#box1::after, #box1::before
+{
+    background: linear-gradient(235deg, #772aff, #010615, #f35221);
+}
+#box2::after, #box2::before
+{
+    background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
+}
+
+#box3::after, #box3::before
+{
+    background: linear-gradient(235deg, #ff005e, #010615, #fbff00);
+}
+
+footer
+{
+    background: #262626;
+}
+
+#icons
+{
+    margin-left: 15vw;
+    width:70vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
