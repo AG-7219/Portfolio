@@ -6,6 +6,7 @@ html
 #Home
 {
     background: #262626;
+    margin:50px 0 0 0;
 }
 
 body
@@ -15,12 +16,17 @@ body
     box-sizing: border-box;
 }
 
-#card1
+#profile
 {
-    margin:50px 0 0 0;
+    float: right;
+    border-radius: 5px; 
+}
+
+#Home
+{
     padding: 0;
     width: 100%;
-    background: linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%) no-repeat center center/cover;
+    background: url(./images/bg.png) no-repeat center center/cover;
 }
 
 .card-header
@@ -79,7 +85,6 @@ body
     left: -2px;
     right: -2px;
     bottom: -2px;
-    background: cyank;
     z-index: -1;
 }
 
